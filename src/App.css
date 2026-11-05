@@ -1,0 +1,29 @@
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.logo-wrapper .navbar-brand {
+  margin-bottom: 0;
+  font-size: 22px;
+}
